@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Senac | Contato" content="width=device-width, initial-scale=1.0">
+    <title>Senac | Contato</title>
+</head>
+
+<body>
+    <img src="_images/senac.png" />
+    <h1>Senac São Miguel<h1>
+            <hr>
+            <h1>Contato</h1>
+
+            <form name="Contato" method="post" action="sucesso.html">
+
+                <label>Nome</label>
+                <br>
+                <input type="text" name="nome" title="Nome completo" required />
+
+                <br>
+                <br>
+
+                <label>E-mail</label>
+                <br>
+                <input type="text" name="email" title="Endereço de email válido" required />
+
+                <br>
+                <br>
+
+                <label>Telefone</label>
+                <br>
+                <input type="text" name="Telefone" required />
+
+                <br>
+                <br>
+
+                <label for="assunto"> Assunto: </label>
+                <br>
+                <select id="assunto" name="assunto">
+                    <option value="AS1">Assunto 1</option>
+                    <option value="AS2">Assunto 2</option>
+                    <option value="AS3">Assunto 3</option>
+                </select>
+
+                <br>
+                <br>
+
+                <label>Mensagem</label>
+                <br>
+                <textarea rows=“10” name="Mensagem" ”></textarea>
+
+                <br>
+
+                <input type="checkbox" id="confirmar" name="confirmar" />
+                <label for="confirmar">ENVIAR UMA CÓPIA PARA VOCÊ</label>
+
+                <br>
+                <br>
+
+                <button type="submit" name=“btEnviar”>Enviar Mensagem</button>
+
+                <br>
+                <br>
+
+                <p><a href=index.html>&laquo Voltar </a></p>
+
+            </form>
+
+</body>
+
+</html>
