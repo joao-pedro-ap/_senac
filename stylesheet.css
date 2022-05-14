@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logoHeader {
+    margin-left: 800px;
+    margin-top: 20px;
+}
+
+.header {
+    margin-top: 10px;
+    margin-left: 400px;
+    width: 1000px;
+}
+
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-left: 400px;
+    margin-top: 10px;
+    width: 180px;
+    float: left ;
+}
+
+.menu {
+    float: left;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.menu li {
+    
+    width: 150px;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    float: left;
+}
+
+.substitulo {
+    border-left: 800px;
+    border-top: 20px;
+}
+
+.paragrafo {
+}
